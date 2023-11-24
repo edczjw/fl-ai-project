@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <RouterLink to="/" class="logo"><img alt="Vue logo" src="@/assets/logo.svg" /></RouterLink>
+    <RouterLink to="/" class="logo"><img alt="Vue logo" src="@/assets/images/logo.png" /></RouterLink>
     <div class="wrapper">
       <nav>
         <!-- <RouterLink to="/">产品介绍</RouterLink>
@@ -19,7 +19,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <style scoped lang="scss">
 header {
   width: 100%;
-  height: 60px;
+  height: 70px;
   padding: 0 32px;
   display: flex;
   align-items: center;
@@ -36,9 +36,8 @@ header {
 .logo {
   display: block;
   font-size: 0;
-  width: 220px;
-  height: 50px;
-  border: 1px solid #000;
+  width: 180px;
+  height: 70px;
   img {
     width: 100%;
     height: 100%;
