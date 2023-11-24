@@ -1,0 +1,28 @@
+@import './base.css';
+
+#app {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;  
+  font-weight: normal;
+} 
+a,
+.green {
+  text-decoration: none;
+  color: var(--vt-c-main-bg-color);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: var(--vt-c-main-bg-color);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+  } 
+}
