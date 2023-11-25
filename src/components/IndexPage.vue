@@ -9,37 +9,9 @@ defineProps<{
     <div class="header">
       <div class="inner-header">
         <div class="flex">
-          <svg
-            version="1.1"
-            class="logo"
-            baseProfile="tiny"
-            id="Layer_1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px"
-            y="0px"
-            viewBox="0 0 500 500"
-            xml:space="preserve"
-          >
-            <path
-              fill="#FFFFFF"
-              stroke="#000000"
-              stroke-width="10"
-              stroke-miterlimit="10"
-              d="M57,283"
-            />
-            <g>
-              <path
-                fill="#fff"
-                d="M250.4,0.8C112.7,0.8,1,112.4,1,250.2c0,137.7,111.7,249.4,249.4,249.4c137.7,0,249.4-111.7,249.4-249.4
-C499.8,112.4,388.1,0.8,250.4,0.8z M383.8,326.3c-62,0-101.4-14.1-117.6-46.3c-17.1-34.1-2.3-75.4,13.2-104.1
-c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3,62.4c-19.8,19.1-51.6,26.9-100.2,24.6l1.8-39.7		c35.9,1.6,59.7-2.9,70.8-13.6c8.9-8.6,11.1-22.9,13.5-39.6c6.3-42,14.8-99.4,141.4-99.4h41L333,166c-12.6,16-45.4,68.2-31.2,96.2	c9.2,18.3,41.5,25.6,91.2,24.2l1.1,39.8C390.5,326.2,387.1,326.3,383.8,326.3z"
-              />
-            </g>
-          </svg>
           <h1>专业法律工作者的AI生产力工具</h1>
         </div>
-        <h4>消灭90%以上的基础法律工作时间，让您的时间花在最有价值的地方</h4> 
+        <h4>消灭90%以上的基础法律工作时间，让您的时间花在最有价值的地方</h4>
       </div>
       <div>
         <svg
@@ -66,7 +38,7 @@ c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3
       </div>
     </div>
     <div class="content flex">
-        <RouterLink to="/contact" class="brk-btn">开始试用</RouterLink>
+      <RouterLink to="/contact" class="brk-btn btn-11">开始试用<div class="dot"></div></RouterLink>
     </div>
   </div>
 </template>
@@ -85,11 +57,12 @@ h4 {
   font-weight: 300;
   letter-spacing: 2px;
   font-size: 26px;
-} 
+  line-height: 64px;
+}
 .header {
   position: relative;
   text-align: center;
-  background: linear-gradient(60deg, rgba(34, 127, 185, 0.821) 0%, #32ccccc6 100%);
+  background: linear-gradient(60deg, #002142 0%, #00faca 100%);
   color: white;
 }
 .logo {
@@ -105,56 +78,66 @@ h4 {
   width: 100%;
   display: flex;
   justify-content: center;
-  flex-direction: column; 
+  flex-direction: column;
 }
 .brk-btn {
-  position: relative;
-  background: none;
-  color: #32cccc;
-  text-transform: uppercase;
-  text-decoration: none;
-  border: 0.2em solid #32cccc;
-  width: 100px;
-  padding: 0.8em 0;
-  box-sizing: border-box;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  border-radius: 5px; 
   font-family: 'Lato', sans-serif;
-  letter-spacing: 1px;
-  font-size: 14px;  
-  font-weight: 500; 
-  &::before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 10%;
-    background: rgb(69, 184, 190);
-    height: 0.5em;
-    right: 20%;
-    top: -0.21em;
-    transform: skewX(-45deg);
-    transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
-  }
-  &::after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 10%;
-    background: rgb(78, 176, 181);
-    height: 0.5em;
-    left: 20%;
-    bottom: -0.25em;
-    transform: skewX(45deg);
-    transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
-  }
-  &:hover { 
-    font-weight: 600;
-    &::before {
-      right: 80%;
-    }
-    &::after {
-      left: 80%;
-    }
-  }
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
 }
+/* 11 */
+.btn-11 {
+  border: none;
+  background: #00faca;
+    background: linear-gradient(0deg, #0c655287 0%, #1ceec4 100%);
+    color: #fff;
+    overflow: hidden;
+}
+.btn-11:hover {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.btn-11:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+.btn-11:hover{
+  opacity: .9;
+}
+.btn-11:active{
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+
+@keyframes shiny-btn1 {
+    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+
 .flex {
   display: flex;
   justify-content: center;

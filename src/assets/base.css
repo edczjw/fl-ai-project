@@ -61,7 +61,6 @@
 body {
   min-height: 100vh;
   color: var(--color-text);
-  background: var(--color-background);
   transition:
     color 0.5s,
     background-color 0.5s;
@@ -83,4 +82,57 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100vw;
+  line-height: 1;
+}
+
+body {
+  -webkit-text-size-adjust: 100% !important;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+  word-break: break-all;
+}
+
+textarea {
+  resize: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+:link,
+:visited,
+ins {
+  text-decoration: none;
 }

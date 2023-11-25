@@ -5,77 +5,159 @@ defineProps<{
 </script>
 
 <template>
-  <div class="section second-page">
-    <div class="box-item">
-      <h2>法律研究</h2>
-      <i style="font-size: 14px; color: rgb(242, 84, 84); font-weight: 500">一键生成法律研究成果</i>
-      <p>
-        对话式输入您的问题，一键生成基于&nbsp;<span
-          style="font-weight: 600; color: #000; font-size: 18px"
-          >法律法规与案例引证</span
-        >&nbsp;的专业法律研究报告，有源引的法律问答引擎，杜绝AI幻觉。
-      </p>
-    </div>
-    <div class="box-item">
-      <h2>文书分析</h2>
-      <i style="font-size: 14px; color: rgb(97, 60, 207); font-weight: 500">事实梳理小助手</i>
-      <p>
-        从繁杂的文件中抽取出事件、人物关系，梳理出事件时间线，构建出关系图谱，通过对话式基于文书内容展开问答
-      </p>
-    </div>
-    <div class="box-item">
-      <h2>法律翻译</h2>
-      <i style="font-size: 14px; color: rgba(21, 94, 239, 1); font-weight: 500">专业场景专用翻译</i>
-      <p>聚焦法律场景：清晰的逻辑思维+对法律条款的理解能力，助力从业者高效精准完成翻译</p>
-    </div>
-    <div class="box-item">
-      <h2>文书生成</h2>
-      <i style="font-size: 14px; font-weight: 500">文书定制化生成</i>
-      <p>根据案情需要自动撰写文书，可以根据您历史撰写过的文书作为模板进行标准化文书生成。</p>
+  <div class="section second-page" id="timeline">
+    <div class="demo-card-wrapper">
+      <div class="title">产品功能介绍</div>
+      <div class="demo-card demo-card--step1">
+        <div class="head">
+          <h2>法律研究<span class="small">一键生成法律研究成果</span></h2>
+          <div class="body">
+            对话式输入您的问题，一键生成基于法律法规与案例引证的专业法律研究报告，有源引的法律问答引擎，杜绝AI幻觉。
+          </div>
+          <a href="//chat.slaw-ai.com" target="_blank" class="btn"><svg t="1700913578490" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10326" width="200" height="200"><path d="M608.3 896H160.4c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h383.9v160c0 35.3 28.6 64 64 64h159.9v192c0 17.7 14.3 32 32 32s32-14.3 32-32V270.2c0-8.5-3.3-16.6-9.3-22.6L649.6 73.4c-6-6-14.2-9.4-22.7-9.4H128.4c-35.3 0-64 28.7-64 64v768c0 35.3 28.6 64 64 64h479.9c17.7 0 32-14.3 32-32s-14.3-32-32-32z m32-608c-17.7 0-32-14.3-32-32V128l159.9 160H640.3z" p-id="10327" fill="#05deb3"></path><path d="M544.3 672H223.4c-17.7 0-32 14.3-32 32s14.3 32 32 32h320.9c17.7 0 32-14.3 32-32s-14.3-32-32-32zM607.3 480H223.4c-17.7 0-32 14.3-32 32s14.3 32 32 32h383.9c17.7 0 32-14.3 32-32s-14.4-32-32-32zM223.4 352h191.9c17.7 0 32-14.3 32-32s-14.3-32-32-32H223.4c-17.7 0-32 14.3-32 32s14.3 32 32 32zM927.6 959c-17.7 0-32-14.3-32-32V704h-159v223c0 17.7-14.3 32-32 32s-32-14.3-32-32V700.6c0-33.4 28.7-60.6 64-60.6h159c35.3 0 64 27.2 64 60.6V927c0 17.7-14.4 32-32 32z" p-id="10328" fill="#05deb3"></path><path d="M816.1 959c-17.7 0-32-14.3-32-32v-32c0-17.7 14.3-32 32-32s32 14.3 32 32v32c0 17.7-14.4 32-32 32z" p-id="10329" fill="#05deb3"></path></svg>开始试用</a>
+        </div>
+        <img src="http://placehold.it/1000x500" alt="法律研究" />
+      </div>
+
+      <div class="demo-card demo-card--step1">
+        <div class="head">
+          <h2>文书分析<span class="small">事实梳理小助手</span></h2>
+          <div class="body">
+            从繁杂的文件中抽取出事件、人物关系，梳理出事件时间线，构建出关系图谱，通过对话式基于文书内容展开问答。
+          </div>
+          <a
+            href="//qqi44o9lycz.feishu.cn/share/base/form/shrcnHqK5glr6IBbADVzf4XwbOe"
+            target="_blank"
+            class="btn"
+            ><svg t="1700913578490" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10326" width="200" height="200"><path d="M608.3 896H160.4c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h383.9v160c0 35.3 28.6 64 64 64h159.9v192c0 17.7 14.3 32 32 32s32-14.3 32-32V270.2c0-8.5-3.3-16.6-9.3-22.6L649.6 73.4c-6-6-14.2-9.4-22.7-9.4H128.4c-35.3 0-64 28.7-64 64v768c0 35.3 28.6 64 64 64h479.9c17.7 0 32-14.3 32-32s-14.3-32-32-32z m32-608c-17.7 0-32-14.3-32-32V128l159.9 160H640.3z" p-id="10327" fill="#05deb3"></path><path d="M544.3 672H223.4c-17.7 0-32 14.3-32 32s14.3 32 32 32h320.9c17.7 0 32-14.3 32-32s-14.3-32-32-32zM607.3 480H223.4c-17.7 0-32 14.3-32 32s14.3 32 32 32h383.9c17.7 0 32-14.3 32-32s-14.4-32-32-32zM223.4 352h191.9c17.7 0 32-14.3 32-32s-14.3-32-32-32H223.4c-17.7 0-32 14.3-32 32s14.3 32 32 32zM927.6 959c-17.7 0-32-14.3-32-32V704h-159v223c0 17.7-14.3 32-32 32s-32-14.3-32-32V700.6c0-33.4 28.7-60.6 64-60.6h159c35.3 0 64 27.2 64 60.6V927c0 17.7-14.4 32-32 32z" p-id="10328" fill="#05deb3"></path><path d="M816.1 959c-17.7 0-32-14.3-32-32v-32c0-17.7 14.3-32 32-32s32 14.3 32 32v32c0 17.7-14.4 32-32 32z" p-id="10329" fill="#05deb3"></path></svg>申请内侧</a
+          >
+        </div>
+        <img src="http://placehold.it/1000x500" alt="法律研究" />
+      </div>
+
+      <div class="demo-card demo-card--step1">
+        <div class="head">
+          <h2>法律翻译<span class="small">专业场景专用翻译</span></h2>
+          <div class="body">
+            聚焦法律场景：清晰的逻辑思维+对法律条款的理解能力，助力从业者高效精准完成翻译。
+          </div>
+          <a
+            href="//qqi44o9lycz.feishu.cn/share/base/form/shrcnHqK5glr6IBbADVzf4XwbOe"
+            target="_blank"
+            class="btn"
+            ><svg t="1700913578490" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10326" width="200" height="200"><path d="M608.3 896H160.4c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h383.9v160c0 35.3 28.6 64 64 64h159.9v192c0 17.7 14.3 32 32 32s32-14.3 32-32V270.2c0-8.5-3.3-16.6-9.3-22.6L649.6 73.4c-6-6-14.2-9.4-22.7-9.4H128.4c-35.3 0-64 28.7-64 64v768c0 35.3 28.6 64 64 64h479.9c17.7 0 32-14.3 32-32s-14.3-32-32-32z m32-608c-17.7 0-32-14.3-32-32V128l159.9 160H640.3z" p-id="10327" fill="#05deb3"></path><path d="M544.3 672H223.4c-17.7 0-32 14.3-32 32s14.3 32 32 32h320.9c17.7 0 32-14.3 32-32s-14.3-32-32-32zM607.3 480H223.4c-17.7 0-32 14.3-32 32s14.3 32 32 32h383.9c17.7 0 32-14.3 32-32s-14.4-32-32-32zM223.4 352h191.9c17.7 0 32-14.3 32-32s-14.3-32-32-32H223.4c-17.7 0-32 14.3-32 32s14.3 32 32 32zM927.6 959c-17.7 0-32-14.3-32-32V704h-159v223c0 17.7-14.3 32-32 32s-32-14.3-32-32V700.6c0-33.4 28.7-60.6 64-60.6h159c35.3 0 64 27.2 64 60.6V927c0 17.7-14.4 32-32 32z" p-id="10328" fill="#05deb3"></path><path d="M816.1 959c-17.7 0-32-14.3-32-32v-32c0-17.7 14.3-32 32-32s32 14.3 32 32v32c0 17.7-14.4 32-32 32z" p-id="10329" fill="#05deb3"></path></svg>申请内侧</a
+          >
+        </div>
+        <img src="http://placehold.it/1000x500" alt="法律研究" />
+      </div>
+
+      <div class="demo-card demo-card--step1">
+        <div class="head">
+          <h2>文书生成<span class="small">文书定制化生成</span></h2>
+          <div class="body">
+            根据案情需要自动撰写文书，可以根据您历史撰写过的文书作为模板进行标准化文书生成。
+          </div>
+          <a
+            href="//qqi44o9lycz.feishu.cn/share/base/form/shrcnHqK5glr6IBbADVzf4XwbOe"
+            target="_blank"
+            class="btn"
+            ><svg t="1700913578490" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10326" width="200" height="200"><path d="M608.3 896H160.4c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h383.9v160c0 35.3 28.6 64 64 64h159.9v192c0 17.7 14.3 32 32 32s32-14.3 32-32V270.2c0-8.5-3.3-16.6-9.3-22.6L649.6 73.4c-6-6-14.2-9.4-22.7-9.4H128.4c-35.3 0-64 28.7-64 64v768c0 35.3 28.6 64 64 64h479.9c17.7 0 32-14.3 32-32s-14.3-32-32-32z m32-608c-17.7 0-32-14.3-32-32V128l159.9 160H640.3z" p-id="10327" fill="#05deb3"></path><path d="M544.3 672H223.4c-17.7 0-32 14.3-32 32s14.3 32 32 32h320.9c17.7 0 32-14.3 32-32s-14.3-32-32-32zM607.3 480H223.4c-17.7 0-32 14.3-32 32s14.3 32 32 32h383.9c17.7 0 32-14.3 32-32s-14.4-32-32-32zM223.4 352h191.9c17.7 0 32-14.3 32-32s-14.3-32-32-32H223.4c-17.7 0-32 14.3-32 32s14.3 32 32 32zM927.6 959c-17.7 0-32-14.3-32-32V704h-159v223c0 17.7-14.3 32-32 32s-32-14.3-32-32V700.6c0-33.4 28.7-60.6 64-60.6h159c35.3 0 64 27.2 64 60.6V927c0 17.7-14.4 32-32 32z" p-id="10328" fill="#05deb3"></path><path d="M816.1 959c-17.7 0-32-14.3-32-32v-32c0-17.7 14.3-32 32-32s32 14.3 32 32v32c0 17.7-14.4 32-32 32z" p-id="10329" fill="#05deb3"></path></svg>申请内侧</a
+          >
+        </div>
+        <img src="http://placehold.it/1000x500" alt="法律研究" />
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped lang="scss">
-.section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 32px;
-  h2 {
-    font-size: 26px;
-    font-weight: 600;
-  }
-}
-.second-page {
-  font-family: 'Lato', sans-serif;
-}
-.box-item {
-  font-family: 'Lato', sans-serif;
-  width: 46%;
-  padding: 32px;
-  margin-bottom: 32px;
-  color: #333;
+.demo-card-wrapper {
+  padding: 40px 90px;
+  padding-bottom: 100px;
   background-color: #fff;
-  border-radius: 24px;
-  box-shadow: 0 0.6021873017743928px 0.6021873017743928px -1.25px #00000017,
-    0 2.288533303243457px 2.288533303243457px -2.5px #00000013, 0 10px 10px -3.75px #00000008;
-  display: flex;
-  flex-direction: column;
-  &:first-child {
-    background-color: #dbeeff;
+  .title {
+    text-align: center;
+    margin: 0 auto;
+    color: #333;
+    font-size: 34px;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 65px;
+    span {
+      margin-top: 10px;
+      display: block;
+      font-size: 16px;
+    }
   }
-  &:nth-child(2) {
-    background-color: #fae6e6;
-  }
-  &:nth-child(3) {
-    background-color: #dedbff;
-  }
-  &:nth-child(4) {
-    background-color: #fff7db;
-  }
-  i{
-    font-family: 'Lato', sans-serif;
+  .demo-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    &:nth-child(2n) {
+      flex-direction: row-reverse;
+      img {
+        margin-right: 60px;
+        margin-left: 0;
+      }
+    }
+    .head {
+        width: 480px;
+      position: relative;
+      .btn {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200px;
+        height: 55px;
+        line-height: 55px;
+        border-radius: 5px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        color: #05deb3;
+        background-color: #fff;
+        border:1px solid #05deb3; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .icon{
+            width: 20px;
+            height: 20px;
+            margin-right: 4px;
+        }
+      }
+      h2 {
+        color: #05deb3;
+        font-size: 48px;
+        font-weight: 900;
+        letter-spacing: 1px; 
+        margin-bottom: 20px;
+        .small {
+          font-size: 24px;
+          margin-left: 12px;
+        }
+      }
+      .body {
+        color: #333;
+        display: box;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 25px;
+        line-height: 160%;
+        overflow: hidden;
+      }
+    }
+    img {
+      flex: 1;
+      margin-left: 60px;
+      margin-right: 0;
+      max-width: 60%;
+      border-radius: 8px;
+      object-fit: contain;
+    }
   }
 }
 </style>
