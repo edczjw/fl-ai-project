@@ -41,7 +41,8 @@
       color: #666;
     }
   }
-  .contraner {
+  .contraner { 
+    padding: 40px 0;
     display: flex;
     align-items: center;
     .item-s {
@@ -51,6 +52,8 @@
       align-items: center;
       img {
         width: 150px;
+        height: 150px;
+        object-fit: contain;
       }
       .desc {
         font-size: 20px;
